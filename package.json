@@ -1,5 +1,5 @@
 {
-  "homepage": "https://LuongTuan1704.github.io/Maditian/trang-chu",
+  "homepage": "https://LuongTuan1704.github.io/Maditian/",
   "name": "maditian-web",
   "version": "0.1.0",
   "private": true,
@@ -19,7 +19,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-  "build": "npm run build",
+  "build": "react-scripts build",
   "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
