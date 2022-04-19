@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Maditian/static/css/main.bca97438.css",
-    "main.js": "/Maditian/static/js/main.9f5acc05.js",
+    "main.css": "/Maditian/static/css/main.565807f5.css",
+    "main.js": "/Maditian/static/js/main.85f1f065.js",
     "static/media/bannner_h2.png": "/Maditian/static/media/bannner_h2.f8cbf4c4381cc30c0991.png",
     "static/media/bannner_h1.png": "/Maditian/static/media/bannner_h1.274d3199b2786ffb368a.png",
     "static/media/bannner_fls_new2.png": "/Maditian/static/media/bannner_fls_new2.acf403d6fa0caa6eb4a6.png",
@@ -18,11 +18,11 @@
     "static/media/slick.woff": "/Maditian/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Maditian/index.html",
     "static/media/Polygon_bt.svg": "/Maditian/static/media/Polygon_bt.3b2538d9fb7fc20106285cdca6b9eae0.svg",
-    "main.bca97438.css.map": "/Maditian/static/css/main.bca97438.css.map",
-    "main.9f5acc05.js.map": "/Maditian/static/js/main.9f5acc05.js.map"
+    "main.565807f5.css.map": "/Maditian/static/css/main.565807f5.css.map",
+    "main.85f1f065.js.map": "/Maditian/static/js/main.85f1f065.js.map"
   },
   "entrypoints": [
-    "static/css/main.bca97438.css",
-    "static/js/main.9f5acc05.js"
+    "static/css/main.565807f5.css",
+    "static/js/main.85f1f065.js"
   ]
 }
