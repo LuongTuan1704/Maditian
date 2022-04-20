@@ -3,8 +3,9 @@ import Qrimg from './../images/QRcode.svg'
 export default function Footer({ children }) {
     return (
 
-        <div className='App-footer mt-auto relative bg-gray-900 px-10'>
-            {children}
+        <div className='App-footer mt-auto  bg-gray-900 px-10'>
+            <div className='relative max-w-screen-2xl mx-auto'>
+                {children}
             <div className="mb-6 pt-10">
                 <div className="ft-left flex-grow grid grid-cols-3 gap-15">
                     <div className='space-y-4'>
@@ -43,6 +44,8 @@ export default function Footer({ children }) {
                     <img src={Qrimg} width={100} height={100} />
                 </div>
             </div>
+            </div>
+
         </div>
     )
 }

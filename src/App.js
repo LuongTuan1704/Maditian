@@ -18,27 +18,28 @@ function App() {
     <div className="App-container overflow-hidden min-h-screen flex flex-col">
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<IndexPage />}>
+
+          <Route path="Maditian/" element={<IndexPage />}>
+
             <Route index element={<Home />} />
-            <Route path="trang-chu" element={<Home />} />
             <Route path="thuong-hieu" element={<BrandPage />} />
+            <Route path="san-pham" element={<ProductPage />} />
+            <Route path="flash-sale" element={<FlSalePage />} />
+            <Route path="gio-hang" element={<CartPage />} />
             {
               products.map((product, i) => {
                 return <Route key={i} path={`san-pham/id=${product.id}`} element={<ProductViewer productId={`${product.id}`} />} />
               })
             }
-            <Route path="san-pham" element={<ProductPage />} />
-            <Route path="san-pham-khuyen-mai" element={<FlSalePage />} />
-            <Route path="gio-hang" element={<CartPage />} />
+            <Route path="*"
+              element={
+                <main style={{ padding: "1rem" }}>
+                  <p>There's nothing here!</p>
+                </main>
+              }
+            />
           </Route>
-          <Route
-            path="*"
-            element={
-              <main style={{ padding: "1rem" }}>
-                <p>There's nothing here!</p>
-              </main>
-            }
-          />
+
         </Routes>
       </BrowserRouter>
 

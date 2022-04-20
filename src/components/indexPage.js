@@ -21,43 +21,46 @@ export default function IndexPage() {
         <>
             <div className=" bg-red-700">
                 <div className="bg-red-500">
-                    <div className=" max-w-screen-xl mx-auto flex py-3  text-white text-md ">
+                    <div className="flex max-w-screen-2xl mx-auto px-10 py-3  text-white text-md ">
                         <div className="flex space-x-5">
-                            <a className="flex transition-colors duration-500 items-center hover:text-blue-500" href="tel:+0398294534" Aria-about="contact phone number">
-                                <Phone size={32} />
-                                <span className="ml-2">Hotline: 0398294534</span> </a>
-                            <a className="flex transition-colors duration-500 items-center hover:text-blue-500" href="https://www.facebook.com/" target="_blank" rel="noreferrer">
-                                <Facebook size={32} />
-                                <span className="ml-2">Ghé Fanpage</span>
+                            <a className="flex items-center" href="tel:+0398294534" Aria-about="contact phone number">
+                                <Phone color="green" size={16} />
+                                <span className="ml-2 transition-colors duration-500  hover:text-gray-700">Hotline: 0398294534</span> </a>
+                            <a className="flex items-center" href="https://www.facebook.com/MAD-TITAN-100130209330524/?ref=pages_you_manage" target="_blank" rel="noreferrer">
+                                <Facebook color="blue" size={16} />
+                                <span className="ml-2 transition-colors duration-500  hover:text-gray-700">Ghé Fanpage</span>
                             </a>
                         </div>
 
-                        <div className="ml-auto search-wrapper w-full max-w-sm p-1 bg-white border border-gray-700 rounded-2xl">
+                        <div className="ml-auto search-wrapper w-full max-w-sm p-1 bg-gray-800  border border-white rounded-2xl">
                             <form method="POST" action="#">
                                 <div className="flex items-center px-3">
-                                    <input className="bg-transparent text-gray-800 px-4 py-1 text-base flex-grow border-0 outline-none" type="text" placeholder="Tìm kiếm sản phẩm" />
-                                    <Search color="black" size={16} />
+                                    <input className="bg-transparent text-white px-4 py-1 text-base flex-grow border-0 outline-none" type="text" placeholder="Tìm kiếm sản phẩm" />
+                                    <Search color="white" size={16} />
                                 </div>
                             </form>
                         </div>
                     </div>
                 </div>
-                <div className="max-w-screen-2xl mx-auto bg-gray-900 flex justify-around  py-10 items-center">
+                <div className="bg-gray-900"><div className="max-w-screen-2xl mx-auto  flex justify-around  py-10 items-center">
                     <div className="logo"><img src={logo} alt="logo" width={132} /></div>
                     <nav className="max-w-2xl">
                         <ul className=" px-10 py-5 space-x-10 flex justify-around uppercase font-bold  bg-red-500 rounded-2xl">
-                            <li ><CustomLink to="/trang-chu" >trang chủ</CustomLink></li>
-                            <li ><CustomLink to="/san-pham">SẢN PHẨM</CustomLink></li>
-                            <li ><CustomLink to="/san-pham-khuyen-mai">FLASH SALE</CustomLink></li>
-                            <li ><CustomLink to="/thuong-hieu">thương hiệu</CustomLink></li>
+                            <li ><CustomLink to="/Maditian/" >trang chủ</CustomLink></li>
+                            <li ><CustomLink to="/Maditian/san-pham">SẢN PHẨM</CustomLink></li>
+                            <li ><CustomLink to="/Maditian/flash-sale">FLASH SALE</CustomLink></li>
+                            <li ><CustomLink to="/Maditian/thuong-hieu">thương hiệu</CustomLink></li>
                         </ul>
                     </nav>
                     <div className="btn">
-                        <a className="gh-btn transition-colors duration-500 px-6 py-3 flex items-center text-gray-900 hover:text-white bg-red-600 border border-red-800 rounded-lg" href="/gio-hang">
+                        <a className="gh-btn transition-colors duration-500 px-6 py-3 flex items-center text-gray-900 hover:text-white bg-red-600 border border-red-800 rounded-lg"
+                            href="/Maditian/gio-hang">
                             <Cart4 color="white" size={32} />
                         </a>
                     </div>
                 </div>
+                </div>
+
 
             </div>
 

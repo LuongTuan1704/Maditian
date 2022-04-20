@@ -57,7 +57,7 @@ export default function ProductViewer({ productId }) {
                         <button className="bnt next"><img className='rotate-180' width={25} src={ar} alt='ic' /></button>
                     </div>
                     <div className="bigImg flex flex-col flex-grow space-y-3 items-center">
-                        <img className="p-6 bg-gray-400 rounded-3xl" src={`${product.imgURL}`} alt='img' />
+                        <img className="p-6 bg-gray-400 rounded-3xl" src={`./../${product.imgURL}`} alt='img' />
                         <div className="btn flex ml-auto space-x-2">
                             <div className="flex items-center bg-white p-3 text-red-700 uppercase rounded-lg cursor-pointer "><span> Mua ngay</span></div>
                             <span className=" flex items-center bg-white p-3 rounded-lg cursor-pointer"> <CartPlus color="black" size={32} /></span>
@@ -90,8 +90,8 @@ export default function ProductViewer({ productId }) {
                             % Mã Giảm Giá
                         </div>
                         <div className="flex ">
-                            <img src={`${product.mggImgUrl[0]}`} alt='mgg1' className="w-1/2" />
-                            <img src={`${product.mggImgUrl[1]}`} alt='mgg2' className="w-1/2" />
+                            <img src={`./../${product.mggImgUrl[0]}`} alt='ma giam gia' className="w-1/2" />
+                            <img src={`./../${product.mggImgUrl[1]}`} alt='ma giam gia' className="w-1/2" />
                         </div>
                     </div>
                     <h3 className="font-bold text-xl py-2">CHỌN HƯƠNG VỊ </h3>
@@ -150,7 +150,7 @@ export default function ProductViewer({ productId }) {
                             </div>
                             <div className=" flex  mb-3 flex-col space-y-2">
                                 <label htmlFor="text">Nhận xét của bạn *</label>
-                                <textarea className="focus:outline-none focus:border-blue-700 bg-transparent border-2 border-white rounded-lg px-6 py-3 text-base resize-none" name="text" id="" cols="30" rows="10"></textarea>
+                                <textarea className="max-h-80 focus:outline-none focus:border-blue-700 bg-transparent border-2 border-white rounded-lg px-6 py-3 text-base resize-none" name="text" id="" cols="30" rows="10"></textarea>
                             </div>
                         </div>
 

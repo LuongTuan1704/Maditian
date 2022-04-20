@@ -17,29 +17,32 @@ let settings = {
     slidesToScroll: 1,
     autoplay: true,
     pauseOnHover: false,
-    speed: 2000,
+    speed: 3500,
     autoplaySpeed: 3500,
 
 };
 export default function FlSalePage() {
 
     return (
-        <div className="max-w-screen-2xl mx-auto">
-            <Slider {...settings}>
+        <div className="">
+            <div style={{ maxWidth: 1920 }}>
+                <Slider {...settings}>
                 <img className="block cursor-pointer" src={bn1} alt='' />
                 <img className="block cursor-pointer" src={bn2} alt='' />
-            </Slider>
+                </Slider>
+            </div>
+
             <div className="px-10 py-28 bg-red-700">
 
-                <h1 className='relative  max-w-xl mx-auto text-center font-bold text-2xl text-white  border-b-2 border-gray-700' >
+                <h1 className='relative  max-w-2xl mx-auto text-center font-bold text-2xl text-white  border-b-2 border-gray-700' >
                     <span className='absolute font-bold bg-red-700 p-3 z-10 left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 uppercase'>Sản phẩm giảm giá</span>
                 </h1>
                 <div className="product-wrapper pt-28 max-w-screen-lg mx-auto grid grid-cols-3  gap-12 py-6 select-none">
 
                     {
-                        ProductSales.map((product, i) => {
+                        ProductSales.filter(product => product.saleOff).map((product, i) => {
                             return (
-                                <Link key={product.id} to={`/san-pham/id=${product.id}`} className="product-item block relative transition-transform  bg-red-500   hover:scale-105  hover:border rounded-lg ">
+                                <Link key={product.id} to={`./../san-pham/id=${product.id}`} className="product-item block relative transition-transform  bg-gray-400   hover:scale-105  hover:border rounded-lg ">
                                     <div className="absolute -top-5 -right-5 flex justify-center items-center w-10 h-10 p-2 bg-white text-base text-red-700 font-bold border border-gray-500 rounded-md">
                                         {product.saleOff}
                                     </div>
@@ -69,7 +72,7 @@ export default function FlSalePage() {
                     }
                 </div>
             </div>
-            <div className="relative">
+            <div className="relative" style={{ maxWidth: 1920 }}>
                 <img src={flt} alt="f" />
                 <div className="absolute top-1/2 -translate-y-1/2 -translate-x-10 left-3/4 flex space-x-10 z-20">
                     <div>
