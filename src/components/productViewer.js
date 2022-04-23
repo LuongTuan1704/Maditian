@@ -61,8 +61,12 @@ export default function ProductViewer({ productId }) {
                     <div className="bigImg flex flex-col flex-grow space-y-3 items-center">
                         <img className="p-6 bg-gray-400 rounded-3xl" src={`./../${product.imgURL}`} alt='img' />
                         <div className="btn flex ml-auto space-x-2">
-                            <div className="flex items-center bg-white p-3 text-red-700 uppercase rounded-lg cursor-pointer "><span> Mua ngay</span></div>
-                            <span className=" flex items-center bg-white p-3 rounded-lg cursor-pointer"> <CartPlus color="black" size={32} /></span>
+                            <div className="flex items-center bg-white p-3 text-red-700 uppercase rounded-lg cursor-pointer transition-colors duration-300 hover:text-blue-700 ">
+                                <span> Mua ngay</span>
+                            </div>
+                            <span className=" flex items-center bg-white p-3 rounded-lg cursor-pointer">
+                                <CartPlus className="text-black transition-colors duration-300 hover:text-blue-700" size={32} />
+                            </span>
                         </div>
                     </div>
 

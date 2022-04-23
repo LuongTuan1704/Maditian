@@ -13,6 +13,7 @@ import FlSalePage from "./components/flashSalePage";
 import { Products as products } from './datas/ProductsData'
 import ProductViewer from "./components/productViewer";
 import CartPage from "./components/cartPage"
+import _404nf from "./images/404-error_img.jpg"
 function App() {
   return (
     <div className="App-container overflow-hidden min-h-screen flex flex-col">
@@ -31,8 +32,8 @@ function App() {
               })
             }     <Route path="*"
               element={
-                <main style={{ padding: "1rem" }}>
-                  <p>There's nothing here!</p>
+                <main >
+                  <img className="block w-screen h-screen" src={_404nf} alt="404 page not found!" />
                 </main>
               }
             />  

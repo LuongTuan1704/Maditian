@@ -53,10 +53,10 @@ export default function IndexPage() {
                         </ul>
                     </nav>
                     <div className="btn">
-                        <a className="gh-btn transition-colors duration-500 px-6 py-3 flex items-center text-gray-900 hover:text-white bg-red-600 border border-red-800 rounded-lg"
-                            href="/Maditian/gio-hang">
-                            <Cart4 color="white" size={32} />
-                        </a>
+                        <Link className="gh-btn transition-colors duration-500 px-6 py-3 flex items-center  bg-red-600 border border-red-800 rounded-lg"
+                            to="/gio-hang">
+                            <Cart4 className="text-white transition-colors duration-300 hover:text-gray-700" size={32} />
+                        </Link>
                     </div>
                 </div>
                 </div>

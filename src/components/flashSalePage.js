@@ -17,8 +17,8 @@ let settings = {
     slidesToScroll: 1,
     autoplay: true,
     pauseOnHover: false,
-    speed: 3500,
-    autoplaySpeed: 3500,
+    speed: 2000,
+    autoplaySpeed: 5000,
 
 };
 export default function FlSalePage() {
@@ -27,8 +27,8 @@ export default function FlSalePage() {
         <div className="">
             <div style={{ maxWidth: 1920 }}>
                 <Slider {...settings}>
-                <img className="block cursor-pointer" src={bn1} alt='' />
-                <img className="block cursor-pointer" src={bn2} alt='' />
+                    <img className="block cursor-pointer h-screen" src={bn1} alt='' />
+                    <img className="block cursor-pointer h-screen" src={bn2} alt='' />
                 </Slider>
             </div>
 

@@ -12,8 +12,8 @@ export default function Home() {
         slidesToScroll: 1,
         autoplay: true,
         pauseOnHover: false,
-        speed: 3500,
-        autoplaySpeed: 3500,
+        speed: 2000,
+        autoplaySpeed: 5000,
 
     };
     document.title = 'Trang chủ'
@@ -21,8 +21,8 @@ export default function Home() {
         <div className=' bg-red-700'>
             <div className="max-w-screen-2xl mx-auto" style={{ maxWidth: 1920 }}>
                 <Slider {...settings}>
-                    <img className="block cursor-pointer" src={banner1} alt='' />
-                    <img className="block cursor-pointer " src={banner2} alt='' />
+                    <img className="block cursor-pointer h-screen" src={banner1} alt='' />
+                    <img className="block cursor-pointer h-screen" src={banner2} alt='' />
                 </Slider>
             </div>
             <div className='px-10 py-28 '>
