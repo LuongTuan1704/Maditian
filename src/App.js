@@ -16,11 +16,10 @@ import CartPage from "./components/cartPage"
 function App() {
   return (
     <div className="App-container overflow-hidden min-h-screen flex flex-col">
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
+
         <Routes>
-
-          <Route path="Maditian/" element={<IndexPage />}>
-
+          <Route path="/" element={<IndexPage />}>
             <Route index element={<Home />} />
             <Route path="thuong-hieu" element={<BrandPage />} />
             <Route path="san-pham" element={<ProductPage />} />
@@ -30,19 +29,18 @@ function App() {
               products.map((product, i) => {
                 return <Route key={i} path={`san-pham/id=${product.id}`} element={<ProductViewer productId={`${product.id}`} />} />
               })
-            }
-            <Route path="*"
+            }     <Route path="*"
               element={
                 <main style={{ padding: "1rem" }}>
                   <p>There's nothing here!</p>
                 </main>
               }
-            />
+            />  
           </Route>
 
         </Routes>
-      </BrowserRouter>
 
+      </BrowserRouter>
     </div>
   );
 }

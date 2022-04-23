@@ -16,6 +16,7 @@ export default function Home() {
         autoplaySpeed: 3500,
 
     };
+    document.title = 'Trang chủ'
     return (
         <div className=' bg-red-700'>
             <div className="max-w-screen-2xl mx-auto" style={{ maxWidth: 1920 }}>
@@ -33,7 +34,7 @@ export default function Home() {
                     {
                         products.map((product, i) => {
                             return (
-                                <Link key={product.id} to={`/Maditian/san-pham/id=${product.id}`}
+                                <Link key={product.id} to={`/san-pham/id=${product.id}`}
                                     className="product-item block transition-transform bg-gray-400 hover:scale-105 p-3 hover:border rounded-lg ">
                                     <div className="flex flex-col h-full">
                                         <div className='h-1/2 flex flex-col justify-center'>

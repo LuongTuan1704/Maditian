@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import CustomLink from "./CustomsLink";
-import { Outlet, NavLink } from "react-router-dom";
+import { Outlet, Link } from "react-router-dom";
 import logo from './../images/LOGO_MAD_TITAN_1.svg'
 import Footer from "./footer";
 import { Phone, Facebook, Search, Cart4 } from "react-bootstrap-icons";
@@ -46,10 +46,10 @@ export default function IndexPage() {
                     <div className="logo"><img src={logo} alt="logo" width={132} /></div>
                     <nav className="max-w-2xl">
                         <ul className=" px-10 py-5 space-x-10 flex justify-around uppercase font-bold  bg-red-500 rounded-2xl">
-                            <li ><CustomLink to="/Maditian/" >trang chủ</CustomLink></li>
-                            <li ><CustomLink to="/Maditian/san-pham">SẢN PHẨM</CustomLink></li>
-                            <li ><CustomLink to="/Maditian/flash-sale">FLASH SALE</CustomLink></li>
-                            <li ><CustomLink to="/Maditian/thuong-hieu">thương hiệu</CustomLink></li>
+                            <li ><CustomLink to="/" >trang chủ</CustomLink></li>
+                            <li ><CustomLink to="/san-pham">SẢN PHẨM</CustomLink></li>
+                            <li ><CustomLink to="/flash-sale">FLASH SALE</CustomLink></li>
+                            <li ><CustomLink to="/thuong-hieu">thương hiệu</CustomLink></li>
                         </ul>
                     </nav>
                     <div className="btn">

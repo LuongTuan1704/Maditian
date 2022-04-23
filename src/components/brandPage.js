@@ -1,4 +1,5 @@
 export default function BrandPage() {
+    document.title = 'Thương Hiệu'
     return (
         <div className="p-16 bg-red-700 text-center text-white">
             <h1 className="text-3xl max-w-6xl mx-auto pb-6">

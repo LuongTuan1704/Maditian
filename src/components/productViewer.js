@@ -1,7 +1,7 @@
 import React from 'react'
 import { useEffect } from "react"
 import ar from './../images/Polygon_bt.svg'
-import { ArrowUpSquare, ArrowDownSquare, CartPlus } from "react-bootstrap-icons";
+import { CartPlus } from "react-bootstrap-icons";
 import { Products as products } from './../datas/ProductsData';
 const Star = ({ marked, starId }) => {
     return (
@@ -42,6 +42,8 @@ export default function ProductViewer({ productId }) {
     useEffect(() => {
         window.scrollTo({ top: 0, behavior: 'smooth' });
     }, [])
+
+    document.title = product.name + " " + (product.more ||= '');
     return (
         <div className=" bg-red-700 text-white py-10">
             <div className="max-w-screen-lg mx-auto flex space-x-16 py-10">

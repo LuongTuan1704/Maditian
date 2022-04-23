@@ -22,7 +22,7 @@ let settings = {
 
 };
 export default function FlSalePage() {
-
+    document.title = 'flash Sale'
     return (
         <div className="">
             <div style={{ maxWidth: 1920 }}>

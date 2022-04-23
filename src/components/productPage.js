@@ -2,6 +2,7 @@ import { Products as products } from './../datas/ProductsData'
 import { CartPlus } from "react-bootstrap-icons"
 import { Link } from "react-router-dom"
 export default function ProductPage({ children }) {
+    document.title = 'Sản phẩm'
     return (
         children ? { children } :
             <div className='pt-10 bg-red-700'>
