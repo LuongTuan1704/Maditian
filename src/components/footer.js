@@ -1,4 +1,4 @@
-import ptLogo from './../images/LOGO_MAD_TITAN_2.svg'
+import ptLogo from './../images/LOGO_MAD_TITAN_New.svg'
 import Qrimg from './../images/QRcode.svg'
 export default function Footer({ children }) {
     return (

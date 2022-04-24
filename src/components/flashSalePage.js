@@ -42,7 +42,7 @@ export default function FlSalePage() {
                     {
                         ProductSales.filter(product => product.saleOff).map((product, i) => {
                             return (
-                                <Link key={product.id} to={`./../san-pham/id=${product.id}`} className="product-item block relative transition-transform  bg-gray-400   hover:scale-105  hover:border rounded-lg ">
+                                <Link key={product.id} to={`./../san-pham/id=${product.id}`} className="product-item block relative transition-transform  bg-white   hover:scale-105  hover:border rounded-lg ">
                                     <div className="absolute -top-5 -right-5 flex justify-center items-center w-10 h-10 p-2 bg-white text-base text-red-700 font-bold border border-gray-500 rounded-md">
                                         {product.saleOff}
                                     </div>
@@ -56,12 +56,12 @@ export default function FlSalePage() {
                                             }
                                         </div>
                                         <div className='mt-auto py-6 px-3 flex flex-col items-center space-y-4'>
-                                            <div className='flex-grow text-center'>
-                                                <h3 className="prd-prdName font-bold text-xl text-gray-800">{product.name}</h3>
-                                                <p className="prd-moretext text-sm text-white">{product.more}</p>
+                                            <div className='flex-grow text-center text-gray-900'>
+                                                <h3 className="prd-prdName font-bold text-xl ">{product.name}</h3>
+                                                <p className="prd-moretext text-sm text-gray-800">{product.more}</p>
                                             </div>
-                                            <div className="prd-wrrapper flex items-center space-x-4 px-4 py-2 bg-white rounded-xl">
-                                                <div className="line-through text-gray-900 text-sm">{product.oldPrice}</div>
+                                            <div className="prd-wrrapper flex items-center space-x-4 px-4 py-2 bg-gray-300 rounded-xl">
+                                                <div className="line-through text-gray-800 text-sm">{product.oldPrice}</div>
                                                 <div className="text-red-700 text-xl">{product.newPrice}</div>
                                             </div>
                                         </div>

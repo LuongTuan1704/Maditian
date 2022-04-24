@@ -59,7 +59,7 @@ export default function ProductViewer({ productId }) {
                         <button className="bnt next"><img className='rotate-180' width={25} src={ar} alt='ic' /></button>
                     </div>
                     <div className="bigImg flex flex-col flex-grow space-y-3 items-center">
-                        <img className="p-6 bg-gray-400 rounded-3xl" src={`./../${product.imgURL}`} alt='img' />
+                        <img className="p-6 bg-white rounded-3xl" src={`./../${product.imgURL}`} alt='img' />
                         <div className="btn flex ml-auto space-x-2">
                             <div className="flex items-center bg-white p-3 text-red-700 uppercase rounded-lg cursor-pointer transition-colors duration-300 hover:text-blue-700 ">
                                 <span> Mua ngay</span>

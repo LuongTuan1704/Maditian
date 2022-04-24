@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import CustomLink from "./CustomsLink";
 import { Outlet, Link } from "react-router-dom";
-import logo from './../images/LOGO_MAD_TITAN_1.svg'
+import logo from './../images/LOGO_MAD_TITAN_New.svg'
 import Footer from "./footer";
 import { Phone, Facebook, Search, Cart4 } from "react-bootstrap-icons";
 export default function IndexPage() {

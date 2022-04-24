@@ -35,7 +35,7 @@ export default function Home() {
                         products.map((product, i) => {
                             return (
                                 <Link key={product.id} to={`/san-pham/id=${product.id}`}
-                                    className="product-item block transition-transform bg-gray-400 hover:scale-105 p-3 hover:border rounded-lg ">
+                                    className="product-item block transition-transform bg-white hover:scale-105 p-3 hover:border rounded-lg ">
                                     <div className="flex flex-col h-full">
                                         <div className='h-1/2 flex flex-col justify-center'>
                                             {
@@ -48,10 +48,10 @@ export default function Home() {
                                         </div>
                                         <div className='mt-auto py-6 px-3 flex flex-col items-center space-y-4'>
                                             <div className='flex-grow text-center'>
-                                                <h3 className="prd-prdName font-bold text-xl text-gray-800">{product.name}</h3>
-                                                <p className="prd-moretext text-sm text-white">{product.more}</p>
+                                                <h3 className="prd-prdName font-bold text-xl text-gray-900">{product.name}</h3>
+                                                <p className="prd-moretext text-sm text-gray-800">{product.more}</p>
                                             </div>
-                                            <div onClick={function (e) { e.preventDefault() }} className="prd-wrrapper cursor-default flex items-center space-x-4 px-4 py-2 bg-white rounded-xl">
+                                            <div onClick={function (e) { e.preventDefault() }} className="prd-wrrapper cursor-default flex items-center space-x-4 px-4 py-2 bg-gray-300 rounded-xl">
                                                 <div className="text-red-700 text-xl">{product.price}</div>
                                                 <a onClick={function (e) { e.stopPropagation() }} className='block' href={`/them-san-pham-vao-gio-hang/?id-san-pham=${product.id}`}>
                                                     <CartPlus size={32} className="transition-colors duration-300 hover:text-blue-700" />
