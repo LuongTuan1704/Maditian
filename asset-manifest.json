@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Maditian/static/css/main.67b11f93.css",
-    "main.js": "/Maditian/static/js/main.82f110e8.js",
+    "main.css": "/Maditian/static/css/main.ca1fe4c0.css",
+    "main.js": "/Maditian/static/js/main.11115c89.js",
     "static/media/bannner_h2.png": "/Maditian/static/media/bannner_h2.f8cbf4c4381cc30c0991.png",
     "static/media/bannner_h1.png": "/Maditian/static/media/bannner_h1.274d3199b2786ffb368a.png",
     "static/media/bannner_fls_new2.png": "/Maditian/static/media/bannner_fls_new2.acf403d6fa0caa6eb4a6.png",
@@ -11,19 +11,18 @@
     "static/media/matcha_img_pd.png": "/Maditian/static/media/matcha_img_pd.f28ec47c158f98e18da5.png",
     "static/media/vanilla_img_pd.png": "/Maditian/static/media/vanilla_img_pd.f887e4fe7993b4a6f9a9.png",
     "static/media/404-error_img.jpg": "/Maditian/static/media/404-error_img.af26c228a3dc880d94c3.jpg",
-    "static/media/LOGO_MAD_TITAN_2.svg": "/Maditian/static/media/LOGO_MAD_TITAN_2.ce28df3b720d6c78f1b42470e7ebb123.svg",
-    "static/media/LOGO_MAD_TITAN_1.svg": "/Maditian/static/media/LOGO_MAD_TITAN_1.6183fe04018fe9c72a799331ce83ec03.svg",
+    "static/media/LOGO_MAD_TITAN_New.svg": "/Maditian/static/media/LOGO_MAD_TITAN_New.58ea7017336d57581fa3bbe02c0cc02f.svg",
     "static/media/slick.svg": "/Maditian/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/Maditian/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/Maditian/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/Maditian/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Maditian/index.html",
     "static/media/Polygon_bt.svg": "/Maditian/static/media/Polygon_bt.3b2538d9fb7fc20106285cdca6b9eae0.svg",
-    "main.67b11f93.css.map": "/Maditian/static/css/main.67b11f93.css.map",
-    "main.82f110e8.js.map": "/Maditian/static/js/main.82f110e8.js.map"
+    "main.ca1fe4c0.css.map": "/Maditian/static/css/main.ca1fe4c0.css.map",
+    "main.11115c89.js.map": "/Maditian/static/js/main.11115c89.js.map"
   },
   "entrypoints": [
-    "static/css/main.67b11f93.css",
-    "static/js/main.82f110e8.js"
+    "static/css/main.ca1fe4c0.css",
+    "static/js/main.11115c89.js"
   ]
 }
