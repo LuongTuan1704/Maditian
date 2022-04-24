@@ -15,6 +15,7 @@ import ProductViewer from "./components/productViewer";
 import CartPage from "./components/cartPage"
 import _404nf from "./images/404-error_img.jpg"
 function App() {
+
   return (
     <div className="App-container overflow-hidden min-h-screen flex flex-col">
       <BrowserRouter basename={process.env.PUBLIC_URL}>
@@ -30,7 +31,8 @@ function App() {
               products.map((product, i) => {
                 return <Route key={i} path={`san-pham/id=${product.id}`} element={<ProductViewer productId={`${product.id}`} />} />
               })
-            }     <Route path="*"
+            }
+            <Route path="*"
               element={
                 <main >
                   <img className="block w-screen h-screen" src={_404nf} alt="404 page not found!" />
