@@ -23,7 +23,7 @@ const Products = [
         name: 'ISO FURY MATCHA',
         imgURL: 'images/matcha_img_pd.png',
         mggImgUrl: ['images/mgg1.png', 'images/mgg2.png'],
-        price: '320.000đ',
+        price: '900.000đ',
     }, {
         id: 4,
         name: 'ISO FURY VANILLA',
