@@ -27,8 +27,8 @@ export default function FlSalePage() {
         <div className="">
             <div style={{ maxWidth: 1920 }}>
                 <Slider {...settings}>
-                    <img className="block cursor-pointer h-screen" src={bn1} alt='' />
-                    <img className="block cursor-pointer h-screen" src={bn2} alt='' />
+                    <img className="block cursor-pointer h-screen" src={bn1} alt='bannner_fls_new1' />
+                    <img className="block cursor-pointer h-screen" src={bn2} alt='bannner_fls_new2' />
                 </Slider>
             </div>
 
