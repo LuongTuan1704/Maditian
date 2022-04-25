@@ -1,11 +1,13 @@
 {
   "files": {
-    "main.css": "/Maditian/static/css/main.ca1fe4c0.css",
-    "main.js": "/Maditian/static/js/main.3f35ad50.js",
+    "main.css": "/Maditian/static/css/main.9195d1c9.css",
+    "main.js": "/Maditian/static/js/main.cbd5f7c3.js",
     "static/media/bannner_h2.png": "/Maditian/static/media/bannner_h2.f8cbf4c4381cc30c0991.png",
     "static/media/bannner_h1.png": "/Maditian/static/media/bannner_h1.274d3199b2786ffb368a.png",
+    "static/media/banner_0.png": "/Maditian/static/media/banner_0.edd37b73d03b5b9873f6.png",
     "static/media/bannner_fls_new2.png": "/Maditian/static/media/bannner_fls_new2.acf403d6fa0caa6eb4a6.png",
     "static/media/bannner_fls_new1.png": "/Maditian/static/media/bannner_fls_new1.87118c8aa1816843fa3e.png",
+    "static/media/banner_1.png": "/Maditian/static/media/banner_1.2e09b49d022d3e8ae0ee.png",
     "static/media/QRcode.svg": "/Maditian/static/media/QRcode.24e61fb161e359cdb5c92ed34e42b8ba.svg",
     "static/media/bannner_fls_pt_cd_new.png": "/Maditian/static/media/bannner_fls_pt_cd_new.5314a06ca1fe41a2f8f9.png",
     "static/media/matcha_img_pd.png": "/Maditian/static/media/matcha_img_pd.f28ec47c158f98e18da5.png",
@@ -18,11 +20,11 @@
     "static/media/slick.woff": "/Maditian/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Maditian/index.html",
     "static/media/Polygon_bt.svg": "/Maditian/static/media/Polygon_bt.3b2538d9fb7fc20106285cdca6b9eae0.svg",
-    "main.ca1fe4c0.css.map": "/Maditian/static/css/main.ca1fe4c0.css.map",
-    "main.3f35ad50.js.map": "/Maditian/static/js/main.3f35ad50.js.map"
+    "main.9195d1c9.css.map": "/Maditian/static/css/main.9195d1c9.css.map",
+    "main.cbd5f7c3.js.map": "/Maditian/static/js/main.cbd5f7c3.js.map"
   },
   "entrypoints": [
-    "static/css/main.ca1fe4c0.css",
-    "static/js/main.3f35ad50.js"
+    "static/css/main.9195d1c9.css",
+    "static/js/main.cbd5f7c3.js"
   ]
 }
