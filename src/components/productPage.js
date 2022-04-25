@@ -3,7 +3,7 @@ import banner1 from './../images/banner_0.png'
 import banner2 from './../images/banner_1.png'
 import { Products as products } from './../datas/ProductsData'
 import RenderProducts from './renderProducts'
-export default function ProductPage({ children }) {
+export default function ProductPage() {
     let settings = {
         dots: false,
         infinite: true,
@@ -17,7 +17,6 @@ export default function ProductPage({ children }) {
     };
     document.title = 'Sản phẩm'
     return (
-        children ? { children } :
             <div className='bg-red-700'>
                 <div style={{ maxWidth: 1920 }}>
                 <Slider {...settings}>
