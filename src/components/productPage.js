@@ -20,8 +20,8 @@ export default function ProductPage() {
             <div className='bg-red-700'>
                 <div style={{ maxWidth: 1920 }}>
                 <Slider {...settings}>
-                    <img className="block cursor-pointer h-screen" src={banner1} alt='banner0' />
-                    <img className="block cursor-pointer h-screen" src={banner2} alt='banner1' />
+                    <img className="block cursor-pointer " src={banner1} alt='banner0' />
+                    <img className="block cursor-pointer " src={banner2} alt='banner1' />
                 </Slider>
                 </div>
                 <h1 className='relative mt-32 max-w-2xl mx-auto text-center font-bold text-2xl text-white  border-b-2 border-gray-700' >
